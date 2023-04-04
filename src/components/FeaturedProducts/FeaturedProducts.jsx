@@ -7,7 +7,7 @@ const FeaturedProducts = ({ type }) => {
     {
       id: 1,
       img: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8TG9uZyUyMFNsZWV2ZSUyMEdyYXBoaWMlMjBUJTIwU2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-      img2: "https://images.unsplash.com/photo-1548389995-fbd3151a501f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8TG9uZyUyMFNsZWV2ZSUyMEdyYXBoaWMlMjBUJTIwU2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      img2: "https://images.unsplash.com/photo-1622445275992-e7efb32d2257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8TG9uZyUyMFNsZWV2ZSUyMEdyYXBoaWMlMjBUJTIwU2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
       title: "Long Sleeve Graphic T-Shirt",
       isNew: true,
       oldPrice: 19,
