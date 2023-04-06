@@ -18,9 +18,12 @@ const persistConfig = {
   storage,
 };
 
+// add cart reducer to persistedReducer
 const persistedReducer = persistReducer(persistConfig, cartReducer);
 
+// export the store
 export const store = configureStore({
+  // add persistedReducer to cart
   reducer: {
     cart: persistedReducer,
   },
@@ -32,4 +35,5 @@ export const store = configureStore({
     }),
 });
 
+// export the persistor
 export let persistor = persistStore(store);
